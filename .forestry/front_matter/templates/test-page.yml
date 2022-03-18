@@ -1,4 +1,13 @@
 ---
 label: test page
 hide_body: false
-fields: []
+fields:
+- name: bb
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: bb
